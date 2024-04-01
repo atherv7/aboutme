@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv Ghone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="functionality.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="banner"></div>
+    <h2 class="trav" id="ab">about</h2>
+    <h2 class="trav off" id="ma">home</h2>
+    <h2 class="trav" id="wo">work</h2>
+    <div id="home" class="section active">
+      <img id="home_img" src="Asset 2.png" alt="">
+      <h1>I'm Atharv</h1>
+    </div>
+    <div id="about" class="section">
+        <h1 class="sec_head">About</h1>
+        <div id="grid_container">
+          <div id="skills" class="cont">
+            <h1>Skills</h1>
+            <div class="skill_holder">
+              <h3>Java</h3>
+              <h3>C++\C</h3>
+              <h3>Python</h3>
+              <h3>JavaScript</h3>
+              <h3>HTML\CSS</h3>
+              <h3>PostgreSQL</h3>
+              <h3>Ruby</h3>
+              <h3>MATLAB</h3>
+              <h3>R</h3>
+              <h3>OCaml</h3>
+              <h3>Rust</h3>
+              <h3>PHP</h3>
+              <h3>Laravel</h3>
+            </div>
+          </div>
+          <div id="purpose" class="cont">
+            <h1>
+              I am a passionate, hard-working individual, who loves all things computers and mathematics.
+              <br><br>
+              Specifically, my interests are in robotics, algorithm development, and backend development.
+            </h1>
+          </div>
+          <div id="education" class="cont">
+            <h1>Education</h1>
+            <div id="list_of_degrees">
+              <ul>
+                <li>Bachelor of Science in Computer Science</li>
+                <li id="sec">Bachelor of Science in Applied Mathematics</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div id="work" class="section">
+        <h1 class="sec_head">Experience and Projects</h1>
+        <div id="exp">
+          <div class="position_holder">
+            <div id="nasa" class="position">
+                <h1>NASA (05/2023 - 02/2024)</h1>
+                <h2>Software and Hardware Engineer Intern</h2>
+                <h3>Responsibilities</h3>
+                <ul>
+                    <li>
+                        Worked in the Unmanned Aerial Systems Team in the Safety Critical Avionics Branch at NASA Langley Research Center
+                    </li>
+                    <li>
+                        Developed a safety-critical traversal algorithm in Python and C for danger-zone interpretation. Also mathematically
+                        proved the algorithm's sufficiency and efficiency. The proof will be published by NASA, and the algorithm will be
+                        the newest addition into NASA's agency-wide software library.
+                    </li>
+                    <li>
+                        Developed various scripts in Bash and Python for on-board code base management and integration.
+                    </li>
+                    <li>
+                        Using Ruby, JRuby, and Java, created an interface between groundstation and UAS to allow for
+                        seamless data forwarding between the two systems.
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="position_holder">
+            <div id="sorrentum" class="position">
+                <h1>Sorrentum (01/2023 - 05/2023)</h1>
+                <h2>ML Engineer</h2>
+                <h3>Responsibilities</h3>
+                <ul>
+                    <li>
+                        Worked with the machine learning team to develop an reinforcement learning algorithm to analyze patterns in market microstructure.
+                    </li>
+                    <li>
+                        Performed model-free HFT analysis.
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class="position_holder">
+            <div id="reslate" class="position">
+                <h1>University of Maryland - Research (09/2022 - 12/2022)</h1>
+                <h2>Head Research Programmer</h2>
+                <h3>Responsibilities</h3>
+                <ul>
+                  <li>
+                    As the head programmer, I led a group of developers to create various programs to assist the research of grad students and professors
+                  </li>
+                  <li>
+                    As the head, I spearheaded the system design of the programs and assigned the team tasks based of experience and capability.
+                  </li>
+                  <li>
+                    As a developer, I worked on creating the web-scraping scripts to gather information from different research databases.
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <div class="position_holder">
+            <div id="sachemie" class="position">
+                <h1>Sachemie (05/2022 - 08/2022)</h1>
+                <h2>Frontend Engineer Intern</h2>
+                <h3>Responsibilities</h3>
+                <ul>
+                  <li>
+                    Worked on a new concept website for the company, integrating features that were absent from their previous website.
+                  </li>
+                  <li>
+                    Changed the visual look of the site, so it can fit the more modern design of websites today.
+                  </li>
+                  <li>
+                    Added more backend functionality to the site allowing for users to send messages to the team through the website.
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <div class="position_holder">
+            <div id="researly" class="position">
+                <h1>University of Maryland - Research (01/2022 - 05/2022)</h1>
+                <h2>Research Programmer</h2>
+                <h3>Responsibilities</h3>
+                <ul>
+                  <li>
+                    Created scripts to aid in the analysis of large data sets from a Large Hadron Collider
+                  </li>
+                  <li>
+                    Using C++ created a neural network from scratch to ensure speed and efficiency in analyzing 10,000+ lines of data.
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div id="tracker">
+            <div id="nasa-" class="track showing"></div>
+            <div id="sorrentum-" class="track"></div>
+            <div id="reslate-" class="track"></div>
+            <div id="sachemie-" class="track"></div>
+            <div id="researly-" class="track"></div>
+        </div>
+        <div id="proj">
+          <div class="p_holder">
+            <div id="project1" class="project">
+              <h1>
+                <a target="_blank" href="https://github.com/atherv7/simulatedOcamlCompiler">Simulated OCaml Compiler</a>
+              </h1>
+              <h3>description</h3>
+              <p>
+                Using Ocaml, I implemeneted a basic compiler for the OCaml language, and added features to it (e.g. allowing for loops).
+                The purpose of the project was to gain a deeper understanding of how compilers work.
+              </p>
+            </div>
+          </div>
+          <div class="p_holder">
+            <div id="project2" class="project">
+              <h1>
+                <a target="_blank" href="https://github.com/atherv7/RL_model_blackjack">Deep Q-Learning for Blackjack</a>
+              </h1>
+              <h3>description</h3>
+              <p>
+                Developed a Deep Q-Learning Model to play blackjack. The purpose of this project was to learn more about reinforcement learning, and
+                to see if the agent to converge to the strategy of counting cards through off-policy learning.
+              </p>
+            </div>
+          </div>
+          <div class="p_holder">
+            <div id="project3" class="project">
+              <h1>
+                <a target="_blank" href="https://github.com/atherv7/stock-portfolio-optimizer">Stock Portfolio Optimizer</a>
+              </h1>
+              <h3>description</h3>
+              <p>
+                I wrote this program to find the optimal distribution of capital for given stocks by the user. I learned about the constant expected return
+                model and wanted to implement it into a computer program to understand the concepts better and also save time on calculations.
+              </p>
+            </div>
+          </div>
+          <div class="p_holder">
+            <div id="project4" class="project">
+              <h1>
+                <a target="_blank" href="https://github.com/atherv7/CPU_Pipeline_Simulator">CPU Pipeline Scheduling Simulation</a>
+              </h1>
+              <h3>description</h3>
+              <p>
+                I wrote a C program to simulate the instruction execution pipeline of a CPU. The program implements a standard pipeline and Tomasulo's algorithm.
+                I was learning a lot about computer architecture at the time, and wanted to see if I understood how a basic CPU instruction pipeline works.
+              </p>
+            </div>
+          </div>
+          <div class="p_holder">
+            <div id="project5" class="project">
+              <h1>
+                <a target="_blank" href="https://github.com/atherv7/Farthest_First_Traversal">Gonzalez's Algorithm Implementation</a>
+              </h1>
+              <h3>description</h3>
+              <p>
+                Implemented Gonzalez's Algorithm for farthest-first traversal using Kd-Trees and Leftist Heaps. I was learning about data structures, and
+                this was the perfect problem to get a good grasp of them.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="p_tracker">
+          <div id="p1" class="ptrack show"></div>
+          <div id="p2" class="ptrack"></div>
+          <div id="p3" class="ptrack"></div>
+          <div id="p4" class="ptrack"></div>
+          <div id="p5" class="ptrack"></div>
+        </div>
+    </div>
+</body>
+</html>
